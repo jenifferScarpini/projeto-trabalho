@@ -62,6 +62,7 @@ nav a:hover{
 }
 
 section.titulo{
+    display: flex;
     background-color: #27325C;
     width: auto;
     height: 360px;
@@ -69,6 +70,7 @@ section.titulo{
 }
 
 div#principal{
+    
     background-color: var(--cor3);
     width: 80vh;
     height: 200px;
