@@ -24,7 +24,7 @@ header{
     text-align: right;
     border-radius: 3px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.404);
-    margin-bottom: 20px;
+    
 }
 header > h1{
     display: inline-block;
@@ -34,6 +34,7 @@ header > h1{
     font-family: var(--font1);
     text-transform: uppercase;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.288);
+    
 }
 
 nav {
@@ -60,35 +61,42 @@ nav a:hover{
     transition-duration: 0.5s;
 }
 
-#principal h1{
+section.titulo{
+    background-color: #27325C;
+    width: auto;
+    height: 360px;
+    padding: 20px;
+}
+
+div#principal{
+    background-color: var(--cor3);
+    width: 80vh;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin:0px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+div#principal h1{
     font-family: var(--font1);
-    font-style: normal;
+    font-size: 2em;
     text-transform: uppercase;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.288);
-    font-size: 2em;
-    
 }
-#principal h2{
+
+div#principal h2{
     font-size: 1.3em;
-    padding-top: 10px;
-    
-}
- 
-#principal h1, h2{
-    text-align: center;
 }
 
-main  p{
-    padding-top: 20px;
+div#principal p{
+    padding: 20px;
 }
 
-#principal{
-    width: 400px;
-    height: 200px;
-    padding: 40px;
-    margin: auto;
-    background-color: #88EAD9;
+section{
+    background-color: #FAA1B4;
+    width: auto;
+    height: 600px;
 }
-
 
 
