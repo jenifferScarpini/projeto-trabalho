@@ -71,41 +71,46 @@ section#titulo{
     display: flex;
     background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
     width: auto;
-    height: 360px;
+    height: 40vw;
     padding: 20px;
+    position: relative;
+
 }
 
 div#principal{
-    
     color: white;
     width: 80vh;
-    height: 200px;
+    height: 400px;
     text-align: center;
     padding: 20px;
     margin:0px 20px 20px 20px;
     border-radius: 10px;
+    position: absolute;
+    top: 120px;
 }
 
 div#principal h1{
     font-family: var(--font1);
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.288);
 }
 
 div#principal h2{
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 div#principal p{
-    padding: 20px;
+    padding: 30px;
+    font-size: 1,2em;
+    text-align: justify;
 }
 
 section#produto{
     font-family: var(--font1);
     background-color: #FAA1B4;
     width: auto;
-    height: 600px;
+    height: 50vw;
 }
 
 div#container{
@@ -123,9 +128,9 @@ div.item{
     border: 1px solid rgba(0, 0, 0, 0.781);
     border-radius: 10px;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.329);
-    width: 150px;
-    height: 200px;
-    margin: 10px;
+    width: 210px;
+    height: 260px;
+    margin: 20px;
     position: relative;
     text-align: center;
     text-decoration: none;
