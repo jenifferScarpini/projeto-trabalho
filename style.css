@@ -34,10 +34,12 @@ header{
 }
 header > h1{
     display: inline-block;
-    width: 300px;
+    width: 400px;
     padding-left: 20px;
+    padding-top: 13px;
     float: left;
     font-family: var(--font1);
+    font-size: 2em;
     text-transform: uppercase;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.288);
     
@@ -45,7 +47,7 @@ header > h1{
 
 nav {
     vertical-align: middle; /* Alinha verticalmente no meio */
-    padding-top: 15px;
+    padding-top: 22px;
     padding-right: 100px;
     
 }
@@ -55,8 +57,10 @@ nav a{
     color: black;
     padding: 10px;
     margin: 10px;
-    padding: 10px 30px;
+    padding: 20px ;
+    padding-top: 30;
     font-weight: bold;
+    font-size: 1.3em;
     
 }
 
