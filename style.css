@@ -13,16 +13,22 @@
     --cor3: #88EAD9;
     --cor4: #467DB3;
     --cor5: #27325C;
+    --cor6: #27325c96;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section#header{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
+
+}
+
 header{
-    background-color: var(--cor1);
-    height: 50px;
+    background-color: var(--cor2);
+    height: 70px;
     text-align: right;
-    border-radius: 3px;
+    border-radius: 0px 0px 40px 40px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.404);
     
 }
@@ -38,7 +44,6 @@ header > h1{
 }
 
 nav {
-    display: inline-block; /* Garante que o nav se ajuste ao conteúdo */
     vertical-align: middle; /* Alinha verticalmente no meio */
     padding-top: 15px;
     padding-right: 100px;
@@ -56,14 +61,15 @@ nav a{
 }
 
 nav a:hover{
-    background-color: var(--cor2);
+    background-color: var(--cor6);
+    color: white;
     border-radius: 5px;
     transition-duration: 0.5s;
 }
 
 section#titulo{
     display: flex;
-    background-color: #27325C;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
     width: auto;
     height: 360px;
     padding: 20px;
@@ -71,7 +77,7 @@ section#titulo{
 
 div#principal{
     
-    background-color: var(--cor3);
+    color: white;
     width: 80vh;
     height: 200px;
     text-align: center;
@@ -95,14 +101,14 @@ div#principal p{
     padding: 20px;
 }
 
-section{
+section#produto{
     font-family: var(--font1);
     background-color: #FAA1B4;
     width: auto;
     height: 600px;
 }
 
-#container{
+div#container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -112,16 +118,32 @@ section{
     height: 600px;
 }
 
-.item{
+div.item{
     background-color: var(--cor3);
     border: 1px solid rgba(0, 0, 0, 0.781);
     border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.329);
     width: 150px;
-    height: 150px;
+    height: 200px;
     margin: 10px;
-    padding: 10px;
+    position: relative;
     text-align: center;
     text-decoration: none;
+}
+
+div.item p{
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    margin:-10px;
+    text-align: center;
+    padding-top: 10px;
+
 }
 
 
