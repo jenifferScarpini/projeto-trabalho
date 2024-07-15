@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+div#container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;}
+
+
+
+  div.item{
+    background-color: var(--cor3);
+    border: 1px solid rgba(0, 0, 0, 0.781);
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.329);
+    width: 210px;
+    height: 260px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;}
