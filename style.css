@@ -29,6 +29,9 @@ section#header{
 }
 
 header{
+    display: flex; /* Adicionado */
+    justify-content: space-between; /* Adicionado para espaçar os elementos */
+    align-items: center; /* Adicionado para alinhar verticalmente no centro */
     background-color: var(--cor7);
     height: 70px;
     text-align: right;
@@ -40,7 +43,6 @@ header > h1{
     display: inline-block;
     width: 400px;
     padding-left: 20px;
-    padding-top: 13px;
     float: left;
     font-family: var(--font1);
     font-size: 2em;
@@ -51,7 +53,6 @@ header > h1{
 
 nav {
     vertical-align: middle; /* Alinha verticalmente no meio */
-    padding-top: 14px;
     padding-right: 300px;
     
 }
@@ -75,6 +76,11 @@ nav a:hover{
     border-radius: 5px;
     border: 1px solid black;
     transition-duration: 0.5s;
+}
+
+img#carrinho{
+    width: 40px;
+    margin-right: 50px;
 }
 
 section#titulo{
@@ -151,6 +157,8 @@ section#prod{
     background-color: #fae4e9;
     width: 80%; /* A seção "prod" ocupa 80% da largura da seção "produto" */
     margin: 0 auto; /* Centraliza a seção "prod" dentro da seção "produto" */
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
     padding: 20px; /* Adiciona preenchimento dentro da seção "prod" */
     box-sizing: border-box; /* Inclui preenchimento e bordas na largura total */
@@ -200,7 +208,10 @@ div.item p{
     margin:-10px;
     text-align: center;
     padding-top: 10px;
+}
 
+div img{
+    max-width: 200px;
 }
 
 footer{
