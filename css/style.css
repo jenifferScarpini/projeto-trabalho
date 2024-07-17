@@ -112,6 +112,15 @@ div#principal{
     padding: 20px;
     border-radius: 10px;
 }
+.redes-sociais{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 15px;
+    box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.404);
+
+
+}
 
 div#principal h1{
     font-family: var(--font1);
@@ -131,13 +140,13 @@ div#principal p{
     text-align: justify;
 }
 
-div#barrca-doces {
+div#img-principal {
     width: 40%;
     display: flex;
     justify-content: center; /* Centraliza a imagem horizontalmente */
 }
 
-div#barrca-doces img {
+div#img-principal img {
     max-width: 100%;
     height: auto;
 }
@@ -229,9 +238,3 @@ footer p{
     padding: 8px 3px 3px 3px;
 }
 
-.rede-social{
-    width: 50px;
-    height: 50x;
-    border-radius: 50%;
-    display: inline;
-}
