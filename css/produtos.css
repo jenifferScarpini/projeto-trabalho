@@ -19,13 +19,9 @@
     --cor6: #27325c96;
     --cor7: #fae4e9;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 section#header{
-    background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
-
+    background-color: var(--cor2);
 }
 
 header{
@@ -36,7 +32,6 @@ header{
     height: 70px;
     text-align: right;
     border-radius: 0px 0px 40px 40px;
-    box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.404);
     
 }
 header > h1{
@@ -83,74 +78,6 @@ img#carrinho{
     margin-right: 50px;
 }
 
-section#titulo{
-    display: flex;
-    background-image: linear-gradient(to right, var(--cor4), var(--cor5) );
-    width: auto;
-    height: 80vh;
-    padding: 20px;
-    /*position: relative;*/
-    justify-content: space-between; /* Adicionado para distribuir o espaço */
-    align-items: center; /* Adicionado para alinhar verticalmente no centro */
-
-}
-
-div#principal{
-    /*color: white;
-    width: 50vw;
-    height: 400px;
-    text-align: center;
-    padding: 20px;
-    margin:0px 20px 20px 20px;
-    border-radius: 10px;
-    position: absolute;
-    top: 120px;*/
-
-    color: white;
-    width: 50%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-}
-.redes-sociais{
-    width: 60px;
-    border-radius: 50%;
-    border: 2px solid white;
-    margin: 15px;
-    box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.404);
-
-
-}
-
-div#principal h1{
-    font-family: var(--font1);
-    font-size: 3em;
-    text-transform: uppercase;
-    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.288);
-}
-
-div#principal h2{
-    font-family: var(--font2);
-    font-size: 2em;
-}
-
-div#principal p{
-    padding: 30px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-div#img-principal {
-    width: 40%;
-    display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-}
-
-div#img-principal img {
-    max-width: 100%;
-    height: auto;
-}
-
 section#produto{
  
     background-color: var(--cor2);
@@ -174,17 +101,24 @@ section#prod{
     border-radius: 10px;
 }
 
+section#prod hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
 section#prod h2{
     text-align: center;
-    padding: 30px 20px 20px 20px;
+    padding: 10px 30px 20px 30px;
     font-size: 2em;
     font-family: var(--font2);
-
-}
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+} 
 div#container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); /* Ajuste automático das colunas */
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 50px; /* Espaçamento entre os itens */
     justify-content: center; /* Centraliza o grid */
     width: 100%;
     box-sizing: border-box;
@@ -221,11 +155,6 @@ div.item p{
 
 div img{
     max-width: 200px;
-}
-
-iframe{
-    width: 100%;
-    height: 800px;
 }
 
 footer{
